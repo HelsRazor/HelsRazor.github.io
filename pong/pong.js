@@ -20,7 +20,7 @@ let dy = Math.floor(Math.random() * 4) + 3;
 let dxd = Math.floor(Math.random() * 2); 
 let dyd = Math.floor(Math.random() * 2); 
 
-document.addEventListener('keydown', function(e) => { 
+document.addEventListener('keydown', (e) => { 
 if (e.key == 'Enter') { 
 	gameState = gameState == 'start' ? 'play' : 'start'; 
 	if (gameState == 'play') { 
