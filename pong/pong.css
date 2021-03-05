@@ -21,8 +21,7 @@ body {
 .board { 
 	height: 85vh; 
 	width: 80vw; 
-	background-image: linear-gradient( 
-			to right, #5c6e91, #839b97); 
+	background-image: linear-gradient( to right , #e67e22   ,   #27ae60 ); 
 	border-radius: 14px; 
 } 
 
@@ -39,14 +38,14 @@ body {
 	height: 100%; 
 	width: 100%; 
 	border-radius: 100px; 
-	animation: spinBall 0.1s linear infinite; 
-	box-shadow: inset 0 0 18px #fff, 
-		inset 6px 0 18px violet, 
-		inset -6px 0 18px #0ff, 
-		inset 6px 0 30px violet, 
-		inset -6px 0 30px #0ff, 
-		0 0 18px #fff, -4px 0 18px 
-		violet, 4px 0 18px #0ff; 
+	animation: spinBall .5s linear infinite; 
+	box-shadow: inset 0 0 18px  #2980b9 , 
+		inset 6px 0 18px  #c0392b , 
+		inset -6px 0 18px  #2980b9 , 
+		inset 6px 0 30px  #c0392b , 
+		inset -6px 0 30px  #2980b9 , 
+		0 0 18px  #2980b9 , -4px 0 18px 
+		 #2980b9 , 4px 0 18px #c0392b ; 
 } 
 
 @keyframes spinBall { 
@@ -66,25 +65,25 @@ body {
 .paddle_1 { 
 	top: calc(7.5vh + 55px); 
 	left: calc(10vw + 30px); 
-	box-shadow: inset 0 0 18px #fff, 
-		inset -6px 0 18px #f3bad6, 
-		inset 6px 0 18px #0ff, 
-		inset -6px 0 30px #f3bad6, 
-		inset 6px 0 30px #0ff, 
-		0 0 18px #fff, 4px 0 18px 
-		#f3bad6, -4px 0 18px #0ff; 
+	box-shadow: inset 0 0 18px #00e4ff, 
+		inset -6px 0 18px #4273f8, 
+		inset 6px 0 18px #00f0f0, 
+		inset -6px 0 30px #4273f8, 
+		inset 6px 0 30px #00f0f0, 
+		0 0 18px #00e4ff, 4px 0 18px 
+		#4273f8, -4px 0 18px #00f0f0; 
 } 
 
 .paddle_2 { 
 	top: calc(85vh + 7.5vh - 100px - 55px); 
 	right: calc(10vw + 30px); 
-	box-shadow: inset 0 0 18px #fff, 
-		inset 6px 0 18px #f3bad6, 
-		inset -6px 0 18px #0ff, 
-		inset 6px 0 30px #f3bad6, 
-		inset -6px 0 30px #0ff, 
-		0 0 18px #fff, -4px 0 18px 
-		#f3bad6, 4px 0 18px #0ff; 
+	box-shadow: inset 0 0 18px #e7073d, 
+		inset 6px 0 18px #cf0a0a, 
+		inset -6px 0 18px #fd1a1a, 
+		inset 6px 0 30px #cf0a0a, 
+		inset -6px 0 30px #fd1a1a, 
+		0 0 18px #e7073d, -4px 0 18px 
+		#cf0a0a, 4px 0 18px #fd1a1a; 
 } 
 
 .player_1_score { 
